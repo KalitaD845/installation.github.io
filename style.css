@@ -1,0 +1,441 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+*{ font-family: 'Open Sans', sans-serif;}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1132px;
+    margin: auto;
+   
+}
+.menu{ 
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.head{
+    position: fixed;
+    background-color: rgb(127, 127, 127, 50%);
+    width: 100%;
+    min-height: 69px;
+}
+header ul{
+    display: flex;
+}
+header a{
+    display: flex;
+    text-decoration: none;
+    font-size: 13px;
+    color:white;
+}
+#toggle{
+    display: none;
+}
+header li{
+    display: flex;
+    padding: 30px 54px 27px 0;
+}
+header p{
+    padding: 25px 57px 20px 35px;
+    font-size: 24px;
+    color:white;
+}
+.img-car{
+    background-image: url(img/car1.png);
+    background-size:cover;
+    min-height: 600px;
+    background-repeat:no-repeat;
+  
+   
+}
+.gray{
+    background-color: rgb(128, 128, 128,50%);
+    min-height:600px;
+
+}
+.background{
+    text-align: center;
+    
+}
+.background h1{
+    padding: 208px 0 82px 0;
+    font-size: 30pt;
+    color: #FFFFFF;
+}
+.background a{
+    padding: 21px 15px 20px 19px;
+    font-size: 18pt;
+    color: #FFFFFF;
+    background-color: #1E69B8;
+    border-left: solid 5px #1B5FA6;
+    text-decoration: none;
+
+}
+.popular{
+    display: flex;
+    text-align: center;
+}
+.second{
+    text-align: center;
+}
+.second h2{
+    padding: 107px 0 36px 0;
+    color: #454545;
+}
+.second h2:after{
+    content: '';
+    display: block;
+    width:81px ;
+    height: 2px;
+    background-color: #2171BC;
+    margin: 36px auto 0;
+}
+.second p{
+    max-width: 508px;
+    margin: auto;
+    padding: 0px 0 108px 0;
+    color: #454545;
+}
+.secon a{
+    text-decoration: none;
+    padding: 16px 58px 15px 57px;
+    border: solid 1px #8FB3DA;
+    margin: 94px 0 127px 0;
+    
+}
+.all{
+    display: flex;
+    justify-content: center;
+}
+.all a{
+    color: #2378C0;
+}
+.im3-1{
+    background-image: url(img/3-1.png);
+    background-repeat: no-repeat;
+    line-height: 30px;
+    max-width: 23%;
+    padding: 0 0 0 70px;
+    
+    
+}
+.im3-2{
+    background-image: url(img/3-2.png);
+    background-repeat: no-repeat;
+    line-height: 30px; 
+    max-width: 23%;
+    padding: 0 0 0 70px;
+     
+}
+.im3-3{
+    background-image: url(img/3-3.png);
+    background-repeat: no-repeat;
+    line-height: 30px;
+    max-width: 23%; 
+    padding: 0 0 0 70px;
+     
+
+}
+.im3-4{
+    background-image: url(img/3-4.png);
+    background-repeat: no-repeat;
+    line-height: 30px;
+    max-width: 23%;
+    padding: 0 0 0 70px;
+    
+}
+.im3-5{
+    background-image: url(img/3-5.png);
+    background-repeat: no-repeat;
+    line-height: 30px;
+     max-width:23%;
+    padding: 0 0 0 70px;
+     
+}
+.im3-6{
+    background-image: url(img/3-6.png);
+    background-repeat: no-repeat;
+    line-height: 30px;
+    max-width: 23%;
+    padding: 0 0 0 70px;
+ 
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: inherit;
+}
+.box h3{
+    font-size: 14px;
+
+}
+.box p{
+    font-size: 14pt;
+    color: #737373;
+}
+footer{
+    
+    background-color: #73767A;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+footer h4{
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 117px 0 0 0;
+}
+footer ul{
+    column-count: 2;
+}
+footer a{
+    text-decoration: none;
+    
+}
+footer li{
+    list-style-type: none;
+}
+footer h4::after{
+   content: '';
+   display: block;
+   width:40px ;
+   height: 2px;
+   background-color:#AEAFB0;
+   margin: 29px 0 0 0;
+   position: left;
+}
+footer p,footer a{
+    color: #FFFFFF;
+    font-size:14px;
+    margin:29px 0 0 0;
+    line-height: 30px;
+}
+.description{
+    min-height: 57px;
+    background-color:#F5F5F5;  
+      display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.services{
+    display: flex;
+    min-height: 675px;
+}
+.right{
+   flex: 0 0 50%;   
+}
+.left{
+  background-image: url(img/car2.png);
+    flex: 0 0 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services_content{
+    padding: 105px 0 74px 30px;
+    max-width: 575px;
+}
+.services_content h2:after{
+    content: '';
+    display: block;
+    width:81px ;
+    height: 2px;
+    background-color: #2171BC;
+    margin: 61px 0 0 0px;
+}
+.services_content li{
+    width: 14px;
+    height: 10px;
+    list-style-image: url(img/marker.png);
+    padding: 10px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+.services_content ul{
+    
+    column-count: 3;
+    padding: 0px 0px 0px 20px;
+}
+.services_content ul a{
+    text-decoration: none;
+    color:#454545;
+}
+.services_content h2{
+    color: #454545;
+}
+.services_content p{
+    padding: 49px 0 65px 0;
+    color: #454545;
+}
+.last{
+    background-image: url(img/car2.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    min-height: 673px;
+    background-color: #F5F5F5;
+    color: #888888;
+}
+.backgray{
+    background-color: #F5F5F5;
+    max-width: 50%;;
+}
+.last .container{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0 0 30px;
+}
+.last h2:after{
+    content: '';
+    display: block;
+    width:81px ;
+    height: 2px;
+    background-color: #2171BC;
+    margin: 61px 0 0 0px;
+}
+.last h2{
+    padding : 105px 0 61px 0px ;
+}    
+.last li{
+    width: 14px;
+    height: 10px;
+    list-style-image: url(img/marker.png);
+    
+}
+.last a{
+    text-decoration: none;
+}
+.all_list a{
+    text-align: center;
+    font-size: 13px;
+    border: solid 1px #8FB3DA;
+    padding: 16px 48px 15px 54px;
+    color: #2378C0;
+    text-decoration: none;
+    
+}
+.all_list{
+    max-width: 200px;
+    margin: 78px auto 0;
+}
+@media (max-width:992px){
+    .container{
+        max-width: 932px;
+        margin: auto;
+    }
+    .ourserv{
+        display: none;
+    }
+    .foot{
+        display: flex;
+        justify-content:left;
+    }
+    .foot>div{
+        padding: 0 0 0 111px;
+    }
+   .right{
+       display: none;
+   }
+}
+@media (max-width:768px){
+    .container{
+       padding: 0 50px;
+    }
+    .popular{
+        max-width: 489px;
+        margin: auto;
+        flex-direction: column;
+    }
+    .im3-1, .im3-2, .im3-3, .im3-4, .im3-5, .im3-6{
+        max-width: 37%;
+    }
+    .services{
+          flex-direction: column;
+        
+      }
+      .left{
+          min-height: 263px;
+      }
+}
+ @media(max-width:650px){
+    .im3-1, .im3-2, .im3-3, .im3-4, .im3-5, .im3-6{
+        background-position: top;
+        max-width: 290px;
+        margin: auto;
+        padding: 59px 0 40px 0;
+        text-align: center;}
+        .right ul{
+          column-count: 1;
+          width: 50%;
+          margin: auto;
+      }
+@media (max-width:550px){
+    header .menu{
+        display: block;
+    }
+    header nav{
+        display: none;    position: absolute;
+         left: 0px;
+         right: 0px;
+    }
+    #toggle{
+        display: block;
+    }
+    header .menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header nav  ul{
+        display: block;
+    }
+     #toggle:hover + nav{
+         display: block;
+         position:absolute;
+         top: 69px;
+     }
+     header nav li{
+         background-color: #1E2632;
+     }
+     header nav a{
+         padding: 0 0 0 15px;
+     }
+}
+    
+}
+@media(max-width:375px){
+      
+      .right ul{
+          column-count: 1;
+          width: 50%;
+          margin: auto;
+      }
+      .foot {
+          flex-direction: column;
+      }
+      .foot>div{
+          padding:0px;
+      }
+      .preview h1{
+          font-size: 27px;
+      }
+      .preview a{
+          font-size: 20px;
+      }
+      .im3-1, .im3-2, .im3-3, .im3-4, .im3-5, .im3-6{
+         background-position: top;
+         max-width: 290px;
+         margin: auto;
+         padding: 59px 0 0 0;
+         text-align: center;
+
+      }
+      .all a{
+        
+          padding: 16px 41px 15px 40px;
+      }
+} 
